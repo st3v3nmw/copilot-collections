@@ -62,13 +62,15 @@ copilot-toolkit:
       dest: .github/skills/generate-prompt/
     - src: assets/skills/generate-repo-instructions
       dest: .github/skills/generate-repo-instructions/
+    - src: assets/skills/migrate-harness-tests-to-state-transition-test
+      dest: .github/skills/migrate-harness-tests-to-state-transition-test/
 
 # ==========================================
-# 2. Framework Specifics 
+# 2. Framework Specifics
 # ==========================================
 charm-python:
   description: "Charm Development with Python"
-  includes: 
+  includes:
     - core
     - common-python
   items: []
