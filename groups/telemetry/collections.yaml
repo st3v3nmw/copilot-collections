@@ -1,0 +1,11 @@
+# Copyright 2026 Canonical Ltd.
+# See LICENSE file for licensing details.
+
+telemetry-go:
+  description: "Telemetry Go Collection"
+  includes:
+    - core
+    - common-go
+  items:
+    - src: instructions/go-code-review.instructions.md
+      dest: .github/instructions/go-code-review.instructions.md
